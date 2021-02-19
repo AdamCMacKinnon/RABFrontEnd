@@ -4,7 +4,7 @@ Currently hosted on Wordpress and coded in PHP, this project will convert the co
 
 Current Snapshot of home page:
 
-<img src="src/assets/images/oldhomepage.jpg" alt="">
+<img src="public/images/oldhomepage.jpg" alt="">
 
 PAGES:
 1. Home Page
@@ -13,11 +13,11 @@ PAGES:
 
 concept drawing of new home page:
 
-<img src="src/assets/images/newhomepage.png" alt="" width="200px" height="auto">
+<img src="public/images/newhomepage.png" alt="" width="200px" height="auto">
 
 Concept Drawing of new Stats Page:
 
-<img src="src/assets/images/newstatspage.png" alt="" width="200px" height="auto">
+<img src="public/images/newstatspage.png" alt="" width="200px" height="auto">
 
 Concept Drawing of About Us page:
 

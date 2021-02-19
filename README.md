@@ -13,13 +13,13 @@ PAGES:
 
 concept drawing of new home page:
 
-<img src="public/images/newhomepage.png" alt="" width="200px" height="auto">
+<img src="public/images/newhomepage.png" alt="" width="400px" height="auto">
 
 Concept Drawing of new Stats Page:
 
-<img src="public/images/newstatspage.png" alt="" width="200px" height="auto">
+<img src="public/images/newstatspage.png" alt="" width="400px" height="auto">
 
 Concept Drawing of About Us page:
 
-<img src="src/assets/images/aboutuspage.png" alt="" width="200px" height="auto">
+<img src="public/images/aboutuspage.png" alt="" width="400px" height="auto">
 

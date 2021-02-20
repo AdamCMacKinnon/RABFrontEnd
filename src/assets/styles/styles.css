@@ -3,8 +3,43 @@ COLOR PALLETTE:
 
 283618 - Kombu Green
 606C38 - Dark Olive Green
-FEFAE0 - Cornsilk (like a white/beige.  Backing for blog posts)
+FFFEF6 - White-ish primary background color for blog posts/body
 DDA15E - Fawn (light brown)
 BC6C25 - Liver Dogs (like a rust color)
 */
+
+body {
+    background-color: #fffef6;
+}
+
+.headerContainer {
+    background-color: black;
+    height: 200px;
+    width: 100%;
+   
+}
+
+
+.logoheader {
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.footerContainer {
+    position: absolute;
+    bottom: 0;
+    background-color: #283618;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding-top: 3px;
+}
+
+.secondHeaderImage {
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
 

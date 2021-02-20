@@ -53,8 +53,8 @@ ReactDOM.render(
       <BaseLayout>
         <Switch>
           <Route exact path="/" component={App} />
-          <Route path="/hooks" component={Hooks} />
-          <Route path="/classes" component={Classes} />
+          <Route path="/rab_stats" component={Hooks} />
+          <Route path="/about_us" component={Classes} />
         </Switch>
       </BaseLayout>
     </Router>

@@ -12,8 +12,6 @@ const Header = () => {
         <img className="mainlogo" src="images/primarylogoblack.jpg" height="200px;" alt=""/>
       </div>
     </div>
-
-
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
   <Link className="navbar-brand" to="#"><img height="40px" src="images/heartnotext.jpg" alt="" /></Link>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

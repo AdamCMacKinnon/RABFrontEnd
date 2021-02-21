@@ -28,13 +28,13 @@ body {
 }
 
 .footerContainer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     background-color: #283618;
     width: 100%;
     text-align: center;
     color: white;
-    padding-top: 3px;
+    height: 30px;
 }
 
 .secondHeaderImage {
@@ -42,4 +42,26 @@ body {
     width: 100%;
     top: 0;
 }
+
+
+.topcard {
+    padding-top: 2px;
+    background-color: #fffef6;
+    text-align: center;
+}
+
+.card {
+    background-color: #fffef6;
+    text-align: center;
+}
+
+.card-title {
+    text-align: left;
+}
+
+.card-img-top {
+    height: 100px;
+}
+
+
 

@@ -2,11 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Hooks from './components/Hooks';
-import Classes from './components/Classes'
+import BlogPosts from './components/BlogPosts'
+import RabStats from './components/RabStats'
+import AboutUs from './components/AboutUs'
 import BaseLayout from './components/layout/BaseLayout'
 import {createStore} from 'redux'
 import {Provider} from 'react-redux'
 import reducer from './reducers/reducerTemplate'
+
 import App from './App';
 import {
   BrowserRouter as Router,
@@ -53,8 +56,9 @@ ReactDOM.render(
       <BaseLayout>
         <Switch>
           <Route exact path="/" component={App} />
-          <Route path="/rab_stats" component={Hooks} />
-          <Route path="/about_us" component={Classes} />
+          <Route path="/rab_stats" component={RabStats} />
+          <Route path="/blog" component={BlogPosts} />
+          <Route path="/about_us" component={AboutUs} />
         </Switch>
       </BaseLayout>
     </Router>

@@ -43,25 +43,30 @@ body {
     top: 0;
 }
 
-
-.topcard {
-    padding-top: 2px;
-    background-color: #fffef6;
-    text-align: center;
-}
-
 .card {
+    padding-top: 6px;
     background-color: #fffef6;
     text-align: center;
-}
-
-.card-title {
-    text-align: left;
 }
 
 .card-img-top {
     height: 100px;
 }
 
+.card-text {
+    color: black;
+    
+}
 
+
+.navbar {
+    background-color: #BC6C25;
+    height: 40px;
+    width: 100%;
+}
+
+.navbartext {
+    padding-bottom: 20px;
+    color: black;
+}
 

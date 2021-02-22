@@ -1,0 +1,46 @@
+{
+    "Posts": [
+        {
+            "Title": "Hank Aaron:  He was the Hammer, and Nails",
+            "Category": "Player Stories",
+            "Body": "This is an article about the legacy of Hank Aaron",
+            "Author": "Adam C. MacKinnon"
+        },
+        {
+            "Title": "Advanced Stats 101: Defensive Runs Saved",
+            "Category": "RAB Stats",
+            "Body": "In this article, we break down the metric dRS and what it means",
+            "Author":"Adam C. MacKinnon"
+        },
+        {
+            "Title": "Fish Tales:  The Florida Marlins and the 1997 World Series",
+            "Category": "World Series",
+            "Body": "The story of the unlikely championship of the Florida Marlins in 1997",
+            "Author":"Adam C. MacKinnon"
+        },
+        {
+            "Title": "Kenny Lofton:  The Outfielder Time Forgot",
+            "Category":"Player Stories",
+            "Body": "A discussion of Kenny Lofton, who was treated unfairly by the BBWAA",
+            "Author":"Adam C. MacKinnon"
+        },
+        {
+            "Title": "MVP Database",
+            "Category": "RAB Stats",
+            "Body": "A complete listing of every MVP winner by year, their stats, and other info",
+            "Author": "Jim Passon, Jr."
+        }, 
+        {
+            "Title": "Stealing Home Book Review",
+            "Category": "Book Review",
+            "Body": "Author Eric Nusbaum has written the best book this year, and it happens to be about baseball...",
+            "Author": "Adam C. MacKinnon"
+        },
+        {
+            "Title": "CY Young Database",
+            "Category": "RAB Stats",
+            "Body": "A complete listing of every Cy Young winner by year, their stats, and other info",
+            "Author":"Jim Passon, Jr."
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "rabStats": [
+        {
+            "Title": "Advanced Stats 101: Defensive Runs Saved",
+            "Category": "RAB Stats",
+            "Body": "In this article, we break down the metric dRS and what it means",
+            "Author":"Adam C. MacKinnon"
+        },
+        {
+            "Title": "MVP Database",
+            "Category": "RAB Stats",
+            "Body": "A complete listing of every MVP winner by year, their stats, and other info",
+            "Author": "Jim Passon, Jr."
+        }, 
+        {
+            "Title": "CY Young Database",
+            "Category": "RAB Stats",
+            "Body": "A complete listing of every Cy Young winner by year, their stats, and other info",
+            "Author":"Jim Passon, Jr."
+        }
+    ]
+}

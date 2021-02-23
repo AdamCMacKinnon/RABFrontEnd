@@ -1,7 +1,7 @@
-
+// import {v1 as uuidv1} from 'uuid'
 
 const initialState = {
-    counter: 0
+    blogs: []
 }
 
 //purpose of reducer is to return a new global state
@@ -10,11 +10,16 @@ const initialState = {
 const reducerTemplate = (state = initialState, action) => {
   switch(action.type){
 
-      case "INCREMENT": //this name has to be the same as  the action.type in actions
+      case "LATEST_POST": //this name has to be the same as  the action.type in actions
           return {
               ...state,
-              counter: state.counter + action.data
+            //   blogs: state.Title + action.data
           }
+        case "SET_BLOG_DATA":
+            return {
+                ...state,
+                blogs: action.payload
+            }
         default:
             return state;
   }

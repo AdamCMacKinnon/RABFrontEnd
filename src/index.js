@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Hooks from './components/Hooks';
 import BlogPosts from './components/BlogPosts'
 import RabStats from './components/RabStats'
 import AboutUs from './components/AboutUs'

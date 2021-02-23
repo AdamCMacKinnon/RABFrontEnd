@@ -1,25 +1,19 @@
 import React from 'react'
 import { useState, useEffect} from 'react'
 import axios from 'axios'
+import {useSelector} from 'react-redux'
+
+
 
 
 const BlogPosts = () => {
 
-    const[blogs, setBlogs] = useState([]);
-
-    useEffect(()=>{
-        const getData = () =>{
-        axios.get("blogposts.json")
-        .then(res =>{
-            setBlogs(res.data.Posts);
-        }).catch(error => console.log(error))
-    }
-    getData();
-    }, [])
+let blogs = useSelector((state => state.blogs))
  
 
   return (
     <>
+    
     {blogs.map(blog =>{
       return(
         <div className="card mb-3 col-8 offset-2">

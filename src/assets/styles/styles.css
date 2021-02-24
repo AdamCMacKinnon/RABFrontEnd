@@ -70,3 +70,23 @@ body {
     color: black;
 }
 
+.cardBio-text {
+
+    color: black;
+}
+
+.adamcardimage {
+    display: block;
+    height: 70px;
+    width: 70px;
+    align-items: center;
+    padding-bottom: 3px;
+    
+}
+.adamcardimagebbfk {
+    height: 125px;
+    width: 95px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+

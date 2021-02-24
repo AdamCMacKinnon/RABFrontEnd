@@ -17,6 +17,7 @@ const App = () => {
     const getData = () =>{
     axios.get("blogposts.json")
     .then(res =>{
+      console.log(res);
         dispatch(setBlogData(res.data.Posts));
     }).catch(error => console.log(error))
 }

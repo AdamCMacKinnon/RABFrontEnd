@@ -1,6 +1,4 @@
 import React from 'react'
-import { useState, useEffect} from 'react'
-import axios from 'axios'
 import {useSelector} from 'react-redux'
 
 
@@ -21,7 +19,7 @@ let blogs = useSelector((state => state.blogs))
   <img className="card-img-top" src={blog.Image} alt="" />
   <div className="card-body">
     <h5 className="card-text">{blog.Title}</h5>
-    <p className="card-text">{blog.Author}</p>
+    <p className="card-text">by: {blog.Author}</p>
     <p className="card-text"><small className="text-muted">{blog.Body}</small></p>
   </div>
 </div>

@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import BlogPosts from './components/BlogPosts'
 import RabStats from './components/RabStats'
 import AboutUs from './components/AboutUs'
+import AdamCard from './components/AdamCard'
 import BaseLayout from './components/layout/BaseLayout'
 import {createStore} from 'redux'
 import {Provider} from 'react-redux'
@@ -57,7 +58,7 @@ ReactDOM.render(
           <Route exact path="/" component={App} />
           <Route path="/rab_stats" component={RabStats} />
           <Route path="/blog" component={BlogPosts} />
-          <Route path="/about_us" component={AboutUs} />
+          <Route path="/about_us" component={AdamCard} />
         </Switch>
       </BaseLayout>
     </Router>

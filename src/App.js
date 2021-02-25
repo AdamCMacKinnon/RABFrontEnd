@@ -8,6 +8,7 @@ import {useEffect} from 'react'
 import axios from 'axios'
 import {useDispatch} from 'react-redux'
 import {setBlogData} from './actions/templateActions'
+import {setStatsData} from './actions/templateActions'
 
 const App = () => {
 
@@ -24,7 +25,16 @@ const App = () => {
 getData();
 }, [])
 
-
+useEffect(() =>{
+  const getStats = () => {
+  axios.get("rabstats.json")
+  .then(res =>{
+      console.log(res);
+      dispatch(setStatsData(res.stats.Stats));
+  }).catch(error => console.log(error))
+  }
+getStats();
+})
 
   return (
     <>

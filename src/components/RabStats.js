@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const RabStats = () => {
   return (
     <>
@@ -12,6 +13,7 @@ const RabStats = () => {
     <p className="card-text"><small className="text-muted">This is the page for stats</small></p>
   </div>
 </div>
+
     </>
   )
 }

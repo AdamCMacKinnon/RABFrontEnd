@@ -11,6 +11,11 @@ export const setBlogData = (data) => ({
   payload: data
 })
 
+export const setStatsData = (stats) =>({
+  type: 'SET_STATS_POSTS',
+  payload: stats
+})
+
 
 // THIS IS NOT A NAMED EXPORT.  WHEN WE IMPORT INTO OUR COMPONENT WE HAVE TO IMPORT LIKE THIS:
 

@@ -1,7 +1,8 @@
 // import {v1 as uuidv1} from 'uuid'
 
 const initialState = {
-    blogs: []
+    blogs: [],
+    stats: []
 }
 
 //purpose of reducer is to return a new global state
@@ -19,6 +20,11 @@ const reducerTemplate = (state = initialState, action) => {
             return {
                 ...state,
                 blogs: action.payload
+            }
+          case "SET_STATS_POSTS":
+            return {
+              ...state,
+              stats: action.payload
             }
         default:
             return state;

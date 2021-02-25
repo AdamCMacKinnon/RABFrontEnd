@@ -11,6 +11,14 @@ PAGES:
 2. RAB Stats Page
 3. About Page
 
+
+TECHNOLOGIES USED IN RE-DESIGN:
+1. React
+2. Redux
+3. Bootstrap
+4. CSS
+
+
 concept drawing of new home page:
 
 <img src="public/images/newhomepage.png" alt="" width="400px" height="auto">
